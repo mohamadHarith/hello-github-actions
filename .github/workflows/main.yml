@@ -9,3 +9,6 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Mona"
+      
+      - name: test shell
+        run: echo "hello world"
